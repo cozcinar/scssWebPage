@@ -34,7 +34,7 @@ if(isset($_POST['submitted']))
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-      <title>Contact us</title>
+      <!--<title>Contact </title>-->
       <link rel="STYLESHEET" type="text/css" href="contact.css" />
       <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
 </head>
@@ -43,7 +43,7 @@ if(isset($_POST['submitted']))
 <!-- Form Code Start -->
 <form id='contactus' action='<?php echo $formproc->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
-<legend>Contact us</legend>
+<!--<legend>Contact us</legend>-->
 
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 <input type='hidden' name='<?php echo $formproc->GetFormIDInputName(); ?>' value='<?php echo $formproc->GetFormIDInputValue(); ?>'/>
